@@ -1,0 +1,34 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="360" rx="24" fill="#F5F7FA"/>
+  <text x="60" y="60" fill="#132238" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">How The Prototype Connects Product Value</text>
+  <text x="60" y="92" fill="#5D708C" font-family="Arial, Helvetica, sans-serif" font-size="16">The product story is not just the ad unit. It is the full operating loop around it.</text>
+
+  <circle cx="600" cy="198" r="58" fill="#FF9900" fill-opacity="0.16" stroke="#FF9900" stroke-width="3"/>
+  <text x="554" y="190" fill="#132238" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Playbreak</text>
+  <text x="547" y="212" fill="#132238" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Console</text>
+
+  <g>
+    <rect x="112" y="138" width="196" height="98" rx="18" fill="#FFFFFF" stroke="#D7E0EA"/>
+    <text x="136" y="174" fill="#132238" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Buyer Adoption</text>
+    <text x="136" y="201" fill="#5D708C" font-family="Arial, Helvetica, sans-serif" font-size="14">Simple setup and familiar</text>
+    <text x="136" y="220" fill="#5D708C" font-family="Arial, Helvetica, sans-serif" font-size="14">self-serve workflow</text>
+  </g>
+
+  <g>
+    <rect x="502" y="224" width="196" height="98" rx="18" fill="#FFFFFF" stroke="#D7E0EA"/>
+    <text x="538" y="260" fill="#132238" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Measurement</text>
+    <text x="528" y="287" fill="#5D708C" font-family="Arial, Helvetica, sans-serif" font-size="14">Engagement, redemption,</text>
+    <text x="537" y="306" fill="#5D708C" font-family="Arial, Helvetica, sans-serif" font-size="14">and attributed outcomes</text>
+  </g>
+
+  <g>
+    <rect x="892" y="138" width="196" height="98" rx="18" fill="#FFFFFF" stroke="#D7E0EA"/>
+    <text x="929" y="174" fill="#132238" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Ops Readiness</text>
+    <text x="915" y="201" fill="#5D708C" font-family="Arial, Helvetica, sans-serif" font-size="14">Targeting, budgets, review,</text>
+    <text x="942" y="220" fill="#5D708C" font-family="Arial, Helvetica, sans-serif" font-size="14">and launch checks</text>
+  </g>
+
+  <path d="M308 188C380 134 456 132 534 171" stroke="#9FB2C8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M663 171C741 132 817 134 892 188" stroke="#9FB2C8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M600 224V248" stroke="#9FB2C8" stroke-width="4" stroke-linecap="round"/>
+</svg>

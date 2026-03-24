@@ -1,36 +1,162 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fire TV Playbreak Console
 
-## Getting Started
+A product prototype for an advertiser-facing console that makes interactive Fire TV campaigns easier to plan, launch, and measure.
 
-First, run the development server:
+This repo is intentionally framed like a product manager's prototype rather than a pure engineering exercise. The goal is to show product thinking: what the workflow is, which user problems it solves, what tradeoffs it makes visible, and how the experience could help internal stakeholders align on a new ad product.
+
+![Playbreak advertiser journey](./docs/readme/user-flow.svg)
+
+## What This Project Is
+
+`firetv-playbreak-console` is a prototype console for a hypothetical Amazon Ads / Fire TV offering called **Playbreak**.
+
+The concept:
+
+- Advertisers can launch lightweight interactive ad moments on Fire TV.
+- Campaigns can include formats like quick trivia, multiple-choice prompts, and reward-driven interactions.
+- Buyers can move from setup to reporting in one connected flow instead of stitching together separate planning, trafficking, and measurement experiences.
+
+This project simulates that end-to-end product journey through a polished demo UI:
+
+- Overview
+- Format selection
+- Campaign builder
+- Targeting and budget controls
+- Review and launch
+- Reporting dashboard
+
+## The Problem It Is Solving
+
+Interactive ad formats are powerful, but they are often hard to operationalize.
+
+From a product perspective, the friction usually shows up in a few places:
+
+- The ad format sounds exciting in a pitch, but the buying workflow is unclear.
+- Creative setup feels custom and hard to scale.
+- Launch dependencies are hidden across multiple teams.
+- Measurement is fragmented, making it hard for buyers to connect engagement to business outcomes.
+
+If a buyer or account team cannot understand how a product would actually be bought, configured, approved, and measured, the concept stays stuck as a sales story instead of becoming a usable platform capability.
+
+This prototype addresses that gap by turning an abstract ad concept into a concrete product surface.
+
+## The Product Idea
+
+The console is designed around a simple product promise:
+
+**Make Playbreak campaigns feel as easy to buy and manage as a familiar self-serve advertising workflow.**
+
+To support that, the prototype emphasizes:
+
+- Familiar console patterns for campaign setup
+- Fast format selection based on advertiser goals
+- Structured creative configuration instead of custom ops-heavy handoffs
+- Audience and budget controls that feel realistic for media buyers
+- Review and launch checkpoints that reduce ambiguity
+- A reporting experience that ties engagement, redemption, and attributed outcomes together
+
+![How the prototype creates product value](./docs/readme/product-loop.svg)
+
+## Why This Feels PM-Built
+
+This repo is meant to communicate more than UI polish. It demonstrates several kinds of product thinking:
+
+- **User clarity:** The flow is organized around what a buyer needs to do next, not around backend system boundaries.
+- **Operational realism:** Budgeting, audience targeting, launch readiness, and reporting are included so the concept feels shippable.
+- **Commercial thinking:** The prototype references business concepts like CPE pricing, reward redemption, and attributed conversions.
+- **Stakeholder alignment:** The screens are useful for product reviews with design, engineering, ads sales, GTM, and leadership.
+- **Narrative completeness:** It does not stop at a flashy format demo; it shows the full lifecycle from concept to measurement.
+
+In that sense, this is the kind of repo a product manager might build to answer:
+
+> "If we turned this ad idea into a real product, what would the buyer experience actually look like?"
+
+## Core User Journey
+
+### 1. Understand the value proposition
+
+The overview page explains the Playbreak concept, the time-to-launch promise, and the measurement story.
+
+### 2. Choose the right interaction format
+
+Advertisers can select from multiple interactive patterns such as:
+
+- `QuickVoice`
+- `SpeedPick`
+- `RevealIt`
+
+Each format is presented in terms of use case, strengths, and expected KPI fit.
+
+### 3. Build the campaign
+
+The builder lets users define:
+
+- campaign name
+- brand identity
+- creative headline
+- question and answer options
+- reward type and value
+- visual styling
+
+This helps make the ad unit feel configurable and repeatable, not bespoke.
+
+### 4. Set delivery controls
+
+Users can then configure:
+
+- audience segments
+- geography
+- device scope
+- flight window
+- bid model
+- total and daily budgets
+
+This is where the prototype starts to feel like a real console instead of a concept mock.
+
+### 5. Review before launch
+
+The review screen summarizes the entire campaign package and surfaces a launch-readiness checklist.
+
+### 6. Measure outcomes
+
+The reporting dashboard closes the loop with:
+
+- completion rate
+- engagement rate
+- reward redemption
+- attributed conversions
+- brand lift style readouts
+- segment-level performance
+
+That measurement layer is important because it shows how the product could justify advertiser value after launch, not just before it.
+
+## Who This Prototype Is For
+
+This repo is useful for:
+
+- product managers exploring ad product concepts
+- designers shaping internal tool and console workflows
+- engineers scoping what a first version of the platform might require
+- GTM and ads stakeholders who need to react to something concrete
+- interviewers or hiring managers evaluating product thinking through software
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+
+## Running Locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Notes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- This is a prototype, not a production advertising platform.
+- The reporting and campaign data are realistic mock data intended for product storytelling and stakeholder review.
+- The main value of the repo is the product framing and workflow design, not backend integration depth.

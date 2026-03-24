@@ -1,0 +1,59 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" rx="24" fill="#09111F"/>
+  <text x="60" y="58" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Playbreak Advertiser Journey</text>
+  <text x="60" y="88" fill="#9BA9BD" font-family="Arial, Helvetica, sans-serif" font-size="16">A PM-style prototype that turns an interactive ad concept into a complete buyer workflow.</text>
+
+  <g>
+    <rect x="48" y="130" width="156" height="118" rx="18" fill="#111C31" stroke="#23324D"/>
+    <text x="68" y="162" fill="#6CC3FF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">01</text>
+    <text x="68" y="190" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Overview</text>
+    <text x="68" y="215" fill="#B9C4D4" font-family="Arial, Helvetica, sans-serif" font-size="14">Explain the value</text>
+    <text x="68" y="234" fill="#B9C4D4" font-family="Arial, Helvetica, sans-serif" font-size="14">proposition and launch</text>
+  </g>
+
+  <g>
+    <rect x="232" y="130" width="156" height="118" rx="18" fill="#111C31" stroke="#23324D"/>
+    <text x="252" y="162" fill="#6CC3FF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">02</text>
+    <text x="252" y="190" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Formats</text>
+    <text x="252" y="215" fill="#B9C4D4" font-family="Arial, Helvetica, sans-serif" font-size="14">Choose the right</text>
+    <text x="252" y="234" fill="#B9C4D4" font-family="Arial, Helvetica, sans-serif" font-size="14">interaction pattern</text>
+  </g>
+
+  <g>
+    <rect x="416" y="130" width="156" height="118" rx="18" fill="#111C31" stroke="#23324D"/>
+    <text x="436" y="162" fill="#6CC3FF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">03</text>
+    <text x="436" y="190" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Builder</text>
+    <text x="436" y="215" fill="#B9C4D4" font-family="Arial, Helvetica, sans-serif" font-size="14">Configure campaign,</text>
+    <text x="436" y="234" fill="#B9C4D4" font-family="Arial, Helvetica, sans-serif" font-size="14">creative, and reward</text>
+  </g>
+
+  <g>
+    <rect x="600" y="130" width="156" height="118" rx="18" fill="#111C31" stroke="#23324D"/>
+    <text x="620" y="162" fill="#6CC3FF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">04</text>
+    <text x="620" y="190" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Targeting</text>
+    <text x="620" y="215" fill="#B9C4D4" font-family="Arial, Helvetica, sans-serif" font-size="14">Set audience, budget,</text>
+    <text x="620" y="234" fill="#B9C4D4" font-family="Arial, Helvetica, sans-serif" font-size="14">device, and flighting</text>
+  </g>
+
+  <g>
+    <rect x="784" y="130" width="156" height="118" rx="18" fill="#111C31" stroke="#23324D"/>
+    <text x="804" y="162" fill="#6CC3FF" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">05</text>
+    <text x="804" y="190" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Review</text>
+    <text x="804" y="215" fill="#B9C4D4" font-family="Arial, Helvetica, sans-serif" font-size="14">Validate readiness</text>
+    <text x="804" y="234" fill="#B9C4D4" font-family="Arial, Helvetica, sans-serif" font-size="14">before launch</text>
+  </g>
+
+  <g>
+    <rect x="968" y="130" width="184" height="118" rx="18" fill="#142A20" stroke="#285A43"/>
+    <text x="988" y="162" fill="#8FF2C0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">06</text>
+    <text x="988" y="190" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Reporting</text>
+    <text x="988" y="215" fill="#C7E8D7" font-family="Arial, Helvetica, sans-serif" font-size="14">Measure engagement,</text>
+    <text x="988" y="234" fill="#C7E8D7" font-family="Arial, Helvetica, sans-serif" font-size="14">redemption, and impact</text>
+  </g>
+
+  <path d="M204 189H228" stroke="#3F506E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M388 189H412" stroke="#3F506E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M572 189H596" stroke="#3F506E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M756 189H780" stroke="#3F506E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M940 189H964" stroke="#3F506E" stroke-width="3" stroke-linecap="round"/>
+</svg>
