@@ -2,7 +2,7 @@
 
 A product prototype for an advertiser-facing console that makes interactive Fire TV campaigns easier to plan, launch, and measure.
 
-This repo is intentionally framed like a product manager's prototype rather than a pure engineering exercise. The goal is to show product thinking: what the workflow is, which user problems it solves, what tradeoffs it makes visible, and how the experience could help internal stakeholders align on a new ad product.
+The focus of this project is the product itself: the buyer problem, the workflow needed to solve it, and the operational and measurement details required to make the idea usable.
 
 ![Playbreak advertiser journey](./docs/readme/user-flow.svg)
 
@@ -57,19 +57,15 @@ To support that, the prototype emphasizes:
 
 ![How the prototype creates product value](./docs/readme/product-loop.svg)
 
-## Why This Feels PM-Built
+## Product Thinking Behind The Flow
 
-This repo is meant to communicate more than UI polish. It demonstrates several kinds of product thinking:
+The experience is designed around a few core principles:
 
 - **User clarity:** The flow is organized around what a buyer needs to do next, not around backend system boundaries.
 - **Operational realism:** Budgeting, audience targeting, launch readiness, and reporting are included so the concept feels shippable.
 - **Commercial thinking:** The prototype references business concepts like CPE pricing, reward redemption, and attributed conversions.
 - **Stakeholder alignment:** The screens are useful for product reviews with design, engineering, ads sales, GTM, and leadership.
 - **Narrative completeness:** It does not stop at a flashy format demo; it shows the full lifecycle from concept to measurement.
-
-In that sense, this is the kind of repo a product manager might build to answer:
-
-> "If we turned this ad idea into a real product, what would the buyer experience actually look like?"
 
 ## Core User Journey
 
@@ -134,11 +130,10 @@ That measurement layer is important because it shows how the product could justi
 
 This repo is useful for:
 
-- product managers exploring ad product concepts
 - designers shaping internal tool and console workflows
 - engineers scoping what a first version of the platform might require
 - GTM and ads stakeholders who need to react to something concrete
-- interviewers or hiring managers evaluating product thinking through software
+- teams exploring interactive ad product concepts
 
 ## Tech Stack
 
